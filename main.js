@@ -13,7 +13,20 @@ let massPopChart = new Chart(myChart, {
                 53590,
                 4097,
                 12518
-            ]
+            ],
+            //backgroundColor:'green'
+            backgroundColor:[
+                'rgba(97, 135, 73, 1)',
+                'rgba(100, 16, 207, 1)',
+                'rgba(150, 212, 241, 1)',
+                'rgba(170, 50, 45, 1)',
+                'rgba(251, 92, 171, 1)',
+                'rgba(56, 131, 46, 1)'
+                
+            ],
+            borderWidth:1,
+            borderColor:'#777',
+            hoverBorderWith:'000'
         }]
     },
     options:{}
